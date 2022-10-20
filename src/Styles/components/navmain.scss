@@ -1,0 +1,87 @@
+@use '../abstract/colors' as c;
+
+.navmain {
+    background-color: c.$nav-background-color;
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 4) {
+        .imageDimension-class {
+            width: 64%;
+        }
+    }
+
+    .imageDimension-class {
+        width:20%;
+    }
+
+    @media (min-width: 280px) and (max-width: 320px) {
+        .imageDimension-class {
+            width: 73%;
+        }
+
+        .bousted-header-Icon {
+            width: 20%;
+        }
+    }
+
+    @media (min-width: 321px) and (max-width: 767px) {
+        .bousted-header-Icon {
+            width: 70%;
+        }
+    }
+
+    @media (min-width: 1025px) and (max-width: 1280px) {
+        .bousted-header-Icon {
+            width: 25%;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) {
+        .bousted-header-Icon {
+            width:147%;
+        }
+    }
+    
+    @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+        .bousted-header-Icon {
+            width: 25%;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+        .bousted-header-Icon {
+            width: 20%;
+        }
+      }
+
+
+
+    .login-area {
+        background: c.$darkest-blue;
+        color: c.$offWhite !important;
+        padding: 10px 21px;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 500;
+        padding: 0;
+        margin: 0;
+        display: inline-block;
+        list-style: none;
+    }
+
+    .nav-log-out {
+        background: c.$darkest-blue;
+        color: c.$offWhite !important;
+        padding: 10px 21px;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .nav-log-out-admin {
+        color: c.$offWhite !important;
+        padding: 10px 21px;
+        text-transform: uppercase;
+        font-size: 12   px;
+        font-weight: 700;
+    }
+}

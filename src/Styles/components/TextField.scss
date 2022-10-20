@@ -1,0 +1,23 @@
+.login_textField {
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    border-radius: 0;
+    box-shadow: 0 0 2px #00000073;
+    border: 0 !important;
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    line-height: 1.5;
+    color: #495057;
+    // padding: 6px 12px !important;
+}
+
+.login_textField:focus {
+    color: #495057;
+    background-color: #fff;
+    border: 0;
+    border-bottom: 2px solid  #80bdff !important;
+    outline: 0;
+    // box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}

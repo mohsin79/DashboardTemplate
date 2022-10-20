@@ -1,0 +1,84 @@
+@use "../abstract/colors";
+
+.login-body {
+    background-color: colors.$black;
+    min-height: 100vh !important;
+}
+
+.reg_form {
+    border: colors.$blue  !important;
+    background-color: colors.$white  !important;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+    color: colors.$offWhite  !important;
+}
+
+.dx-placeholder:before {
+    padding: 0px 8px 0px !important;
+}
+
+.reg_btn_para {
+    margin-top: 18px !important;
+    margin-bottom: 20px;
+}
+
+.logoholder {
+    text-align: center;
+}
+
+.logoholder img {
+    width: 50%;
+    margin-right: 5%;
+}
+
+.Sign-up-header {
+    color: colors.$sign-up-black  !important;
+}
+
+.modal-border {
+    border-top: 4px solid #27AAE1 !important;
+}
+
+.dx-texteditor-input {
+    font-weight: 400 !important;
+    font-family: 'Montserrat', sans-serif !important;
+    background-color: #fff !important;
+    border-radius: 0 !important;
+    border: 0 !important;
+    box-shadow: 0 0 2px #00000073 !important;
+    height: 50px !important;
+    width: 100% !important;
+    border-bottom: 1px solid #fff !important;
+    line-height: 1.5 !important;
+    color: #2c3e50 !important;
+    font-size: 13px;
+}
+
+.reg_btn_para {
+    border: #27AAE1 !important;
+    background-color: #27AAE1 !important;
+    padding: 0.5rem 1rem;
+    font-size: 1.25rem;
+    line-height: 1.5;
+    border-radius: 0.3rem;
+    color: #fff;
+}
+
+.dx-texteditor-input {
+    border-color: none !important;
+}
+
+.dx-state-focused {
+    color: #495057 !important;
+    background-color: #fff !important;
+    border: 0 !important;
+    box-shadow: 0 0 2px #00000073 !important;
+    border-bottom: 2px solid #80bdff !important;
+    outline: 0 !important;
+}
+
+.dx-texteditor-input {
+    box-shadow: 0 0 7px #0000002e !important;
+}

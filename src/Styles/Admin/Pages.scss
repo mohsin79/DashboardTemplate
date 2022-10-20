@@ -1,0 +1,128 @@
+.text-dark-pending {
+    color: #343a40 !important;
+    font-size: 1.8rem !important;
+}
+
+.content-header .breadcrumb {
+    background-color: transparent;
+    line-height: 1.8rem;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+.breadcrumb {
+    display: flex;
+    flex-wrap: wrap;
+    padding: .75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    // background-color: #e9ecef;
+    border-radius: .25rem;
+}
+
+.card-admin {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0 solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .125), 0 1px 3px rgba(0, 0, 0, .2);
+    margin-bottom: 1rem;
+}
+
+.card-admin-header {
+    background-color: transparent;
+    border-bottom: 1px solid rgba(0, 0, 0, .125);
+    padding: .75rem 1.25rem;
+    position: relative;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+}
+
+.admin-h3 {
+    font-size: 1.75rem !important;
+    font-family: inherit;
+    font-weight: 500 !important;
+    line-height: 1.2;
+    color: inherit;
+}
+
+.dx-htmleditor-toolbar-format.dx-size-format {
+    width: 140px;
+}
+
+.dx-toolbar-item-content > .dx-texteditor {
+    width: 158px;
+}
+
+.dx-htmleditor .dx-htmleditor-toolbar-wrapper {
+    padding: 10px;
+    position: relative;
+    padding-top: 6px;
+    padding-bottom: 16px;
+}
+
+.card-primary {
+    margin: 30px;
+}
+
+.align-self {
+    align-self: center;
+}
+
+// .dx-button-mode-contained {
+//     width: 100% !important;
+// }
+
+
+.dx-datagrid-borders>.dx-datagrid-header-panel {
+    margin-bottom: 15px;
+    padding-right: 0;
+}
+
+.restoreApplication-grid:disabled,
+.deleteApplication-grid:disabled {
+    opacity: 0.2;
+}
+
+.restoreApplication-grid {
+    height: 30px;
+    width: 31px;
+    padding: 0;
+    margin: 0;
+    background-image: url('<%=process.env.MEDIAURL%>/assets/img/REFRESH 03.svg');
+    background-repeat: no-repeat;
+    background-origin: border-box;
+    border: none;
+    cursor: not-allowed;
+}
+
+.pendingApprvl {
+    justify-content: end;
+    margin-top: 14px;
+}
+
+@media only screen and (max-device-width: 640px) {
+    .pendingApprvl {
+        margin-top: 18px;
+        justify-content: start;
+    }
+}
+
+@media only screen and (max-device-height : 768px) and (max-device-width : 1024px) {
+    .pendingApprvl {
+        margin-top: 14px;
+        justify-content: start;
+    }
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (-webkit-min-device-pixel-ratio: 1.0) {
+    .pendingApprvl {
+        margin-top: 14px;
+        justify-content: start;
+    }
+}
